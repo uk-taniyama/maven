@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>jp.gr.java_conf.uk</groupId>
+  <artifactId>java-library</artifactId>
+  <versioning>
+    <latest>0.0.0-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200228152645</lastUpdated>
+  </versioning>
+</metadata>
