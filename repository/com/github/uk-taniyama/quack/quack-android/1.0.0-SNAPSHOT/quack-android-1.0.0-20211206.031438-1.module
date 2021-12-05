@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.uk-taniyama.quack",
+    "module": "quack-android",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quack-android-1.0.0-SNAPSHOT.aar",
+          "url": "quack-android-1.0.0-SNAPSHOT.aar",
+          "size": 1717899,
+          "sha512": "ca83b3ce8066b532ea9ba41553352ddeb037600d0d9f9ea16a1987722e4a4a21e192be18fe23378d9f6a48895c2a524c6b5b0dbca03f4ce53b1126d2a9bde62a",
+          "sha256": "63b22100715d925c349c6817eb40068d15f2b6ef2b85f74a77d18f9653eadd02",
+          "sha1": "27ad9f9fa35ff9d1125392ea6fa210969699ad86",
+          "md5": "9429e7625a48509e0ce2aba42c830f00"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.uk-taniyama.quack",
+          "module": "quack-java",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quack-android-1.0.0-SNAPSHOT.aar",
+          "url": "quack-android-1.0.0-SNAPSHOT.aar",
+          "size": 1717899,
+          "sha512": "ca83b3ce8066b532ea9ba41553352ddeb037600d0d9f9ea16a1987722e4a4a21e192be18fe23378d9f6a48895c2a524c6b5b0dbca03f4ce53b1126d2a9bde62a",
+          "sha256": "63b22100715d925c349c6817eb40068d15f2b6ef2b85f74a77d18f9653eadd02",
+          "sha1": "27ad9f9fa35ff9d1125392ea6fa210969699ad86",
+          "md5": "9429e7625a48509e0ce2aba42c830f00"
+        }
+      ]
+    }
+  ]
+}

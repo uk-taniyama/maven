@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.uk-taniyama.quack",
+    "module": "quack-android-debug",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quack-android-debug-1.0.0-SNAPSHOT.aar",
+          "url": "quack-android-debug-1.0.0-SNAPSHOT.aar",
+          "size": 2198247,
+          "sha512": "99897aa5b0ae6567ea1b2d5ad20f59963f4c045a853342bfb47677c7dc7055f21f4f7749e409723d9aabef8e5801a045254a47424fd3452268b1dbffcc489548",
+          "sha256": "645bb0df7ea9322462c3136a72675a582f2e8d45421a9bad3c106d019bd3d000",
+          "sha1": "d3e9a0c8f0d32cb05e5697b8c32c0bcb52e06da0",
+          "md5": "9c92dcb8f5d591281c7e2dd8fc9e1ad8"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.uk-taniyama.quack",
+          "module": "quack-java",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quack-android-debug-1.0.0-SNAPSHOT.aar",
+          "url": "quack-android-debug-1.0.0-SNAPSHOT.aar",
+          "size": 2198247,
+          "sha512": "99897aa5b0ae6567ea1b2d5ad20f59963f4c045a853342bfb47677c7dc7055f21f4f7749e409723d9aabef8e5801a045254a47424fd3452268b1dbffcc489548",
+          "sha256": "645bb0df7ea9322462c3136a72675a582f2e8d45421a9bad3c106d019bd3d000",
+          "sha1": "d3e9a0c8f0d32cb05e5697b8c32c0bcb52e06da0",
+          "md5": "9c92dcb8f5d591281c7e2dd8fc9e1ad8"
+        }
+      ]
+    }
+  ]
+}

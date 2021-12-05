@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.uk-taniyama.quack",
+    "module": "quack-jni",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "quack-jni-1.0.0-SNAPSHOT.jar",
+          "url": "quack-jni-1.0.0-SNAPSHOT.jar",
+          "size": 1748509,
+          "sha512": "7bc70441ac2866846a8672fc240ab54251f66ec99a42f4f2328c1eb9cdf6741f7d964848ae71c32c6268564aaaf6c4951987fe6d468dff61e1a6df6d33764733",
+          "sha256": "51f762727c18d9df6648ed66be591b1caefdee11e8f347b7b013c353c81104e7",
+          "sha1": "36f936cd62385c8a937b7773d725227b1dbdccad",
+          "md5": "618fc334aed695d117ea478c0edb10b9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "quack-jni-1.0.0-SNAPSHOT.jar",
+          "url": "quack-jni-1.0.0-SNAPSHOT.jar",
+          "size": 1748509,
+          "sha512": "7bc70441ac2866846a8672fc240ab54251f66ec99a42f4f2328c1eb9cdf6741f7d964848ae71c32c6268564aaaf6c4951987fe6d468dff61e1a6df6d33764733",
+          "sha256": "51f762727c18d9df6648ed66be591b1caefdee11e8f347b7b013c353c81104e7",
+          "sha1": "36f936cd62385c8a937b7773d725227b1dbdccad",
+          "md5": "618fc334aed695d117ea478c0edb10b9"
+        }
+      ]
+    }
+  ]
+}
