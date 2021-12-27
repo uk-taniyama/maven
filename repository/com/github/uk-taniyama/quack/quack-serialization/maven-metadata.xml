@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.uk-taniyama.quack</groupId>
+  <artifactId>quack-serialization</artifactId>
+  <versioning>
+    <latest>1.0.1-SNAPSHOT</latest>
+    <versions>
+      <version>1.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20211227011158</lastUpdated>
+  </versioning>
+</metadata>

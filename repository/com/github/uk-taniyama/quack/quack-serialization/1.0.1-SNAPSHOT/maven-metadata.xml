@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.github.uk-taniyama.quack</groupId>
+  <artifactId>quack-serialization</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20211227.010941</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20211227010941</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0.1-20211227.010941-1</value>
+        <updated>20211227010941</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.1-20211227.010941-1</value>
+        <updated>20211227010941</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.1-20211227.010941-1</value>
+        <updated>20211227010941</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.1-20211227.010941-1</value>
+        <updated>20211227010941</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

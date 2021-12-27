@@ -3,10 +3,10 @@
   <groupId>com.github.uk-taniyama.quack</groupId>
   <artifactId>quack-android</artifactId>
   <versioning>
-    <latest>1.0.0-SNAPSHOT</latest>
+    <latest>1.0.1-SNAPSHOT</latest>
     <versions>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20211206031647</lastUpdated>
+    <lastUpdated>20211227011154</lastUpdated>
   </versioning>
 </metadata>
