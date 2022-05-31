@@ -3,10 +3,10 @@
   <groupId>com.github.uk-taniyama.quack</groupId>
   <artifactId>quack-jni</artifactId>
   <versioning>
-    <latest>1.0.1-SNAPSHOT</latest>
+    <latest>1.0.2-SNAPSHOT</latest>
     <versions>
-      <version>1.0.1-SNAPSHOT</version>
+      <version>1.0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20211227011155</lastUpdated>
+    <lastUpdated>20220531032932</lastUpdated>
   </versioning>
 </metadata>
