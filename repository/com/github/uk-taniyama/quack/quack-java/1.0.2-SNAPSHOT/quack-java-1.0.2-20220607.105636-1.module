@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.uk-taniyama.quack",
+    "module": "quack-java",
+    "version": "1.0.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "quack-java-1.0.2-SNAPSHOT.jar",
+          "url": "quack-java-1.0.2-SNAPSHOT.jar",
+          "size": 68295,
+          "sha512": "4fc52452049eea155bdf085305027d5399705d64b791257b8716a2bb3c0e4963ccbde96924a6e92e274c5eeaceea8ec652ee4d99033bd031b0d858d1b8838cc4",
+          "sha256": "6cbbf9378a40cea7ab523247464567912e3735746b099f6bf32b17402ecfa96e",
+          "sha1": "f576d9ef50ef4f5b0b7ceb00a391fda2ddb32aa2",
+          "md5": "7b254d81083fd95e1ccbab7093dde571"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quack-java-1.0.2-SNAPSHOT.jar",
+          "url": "quack-java-1.0.2-SNAPSHOT.jar",
+          "size": 68295,
+          "sha512": "4fc52452049eea155bdf085305027d5399705d64b791257b8716a2bb3c0e4963ccbde96924a6e92e274c5eeaceea8ec652ee4d99033bd031b0d858d1b8838cc4",
+          "sha256": "6cbbf9378a40cea7ab523247464567912e3735746b099f6bf32b17402ecfa96e",
+          "sha1": "f576d9ef50ef4f5b0b7ceb00a391fda2ddb32aa2",
+          "md5": "7b254d81083fd95e1ccbab7093dde571"
+        }
+      ]
+    }
+  ]
+}

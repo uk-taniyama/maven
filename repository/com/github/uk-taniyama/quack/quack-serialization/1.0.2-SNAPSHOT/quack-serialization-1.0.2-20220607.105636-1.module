@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.uk-taniyama.quack",
+    "module": "quack-serialization",
+    "version": "1.0.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "quack-serialization-1.0.2-SNAPSHOT.jar",
+          "url": "quack-serialization-1.0.2-SNAPSHOT.jar",
+          "size": 24993,
+          "sha512": "c72e0e822ad9f08cc44048ede82b2812f4e8412a5030874271c0dde0e7259685c1abcb33e2e1bab246509ea9fff1f3b1da99d744de0ea041306cb51bf06fdb78",
+          "sha256": "2be719f7a2a4cf0afffb66d43fe120cee41adca0148d8e655fd36ebe0bf0b782",
+          "sha1": "e5b479670159ceeff4f12aa25d1745110912f178",
+          "md5": "ccba422c6e9883a4e86e9d0c6a14d247"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.uk-taniyama.quack",
+          "module": "quack-java",
+          "version": {
+            "requires": "1.0.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quack-serialization-1.0.2-SNAPSHOT.jar",
+          "url": "quack-serialization-1.0.2-SNAPSHOT.jar",
+          "size": 24993,
+          "sha512": "c72e0e822ad9f08cc44048ede82b2812f4e8412a5030874271c0dde0e7259685c1abcb33e2e1bab246509ea9fff1f3b1da99d744de0ea041306cb51bf06fdb78",
+          "sha256": "2be719f7a2a4cf0afffb66d43fe120cee41adca0148d8e655fd36ebe0bf0b782",
+          "sha1": "e5b479670159ceeff4f12aa25d1745110912f178",
+          "md5": "ccba422c6e9883a4e86e9d0c6a14d247"
+        }
+      ]
+    }
+  ]
+}
